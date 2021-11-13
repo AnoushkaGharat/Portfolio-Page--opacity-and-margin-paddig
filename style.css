@@ -1,0 +1,61 @@
+* {
+    border: solid
+}
+
+.header{
+ background-color: #dfc2f7;
+ display:flex;
+ justify-content: space-between;
+}
+
+h1{
+    margin-left:30px;
+    padding:20px;
+    color:#b72cf7;
+}
+
+.games{
+    background-color: #cea8fd;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+
+body{
+    background-color: #ebdbff;
+}
+
+.descriptions a{
+    margin-top:40px;
+    padding:30px;
+}
+
+
+a:link{
+    color:#300663
+}
+
+a:visited{
+    color:#300663
+}
+.item{
+    position:relative;
+}
+.item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+
+.item:hover p{
+    opacity:1;
+}
+.item:hover img{
+    opacity:0.6;
+    transform:scale(1.09);
